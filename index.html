@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Planet's hardest game</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Audiowide|Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="rule-backdrop invisible"></div>
+  <div class="directions">
+    <p>
+      Press spacebar to start playing.
+    </p>
+    <p>
+      Click the questionmark to learn the rules.
+    </p>
+  </div>
+  <div class="rule-container">
+    <div>
+      <p class="rule-title">Rules</p>
+      <p>Run away from the aliens and the spaceship using up/down/left/right keys and avoid being abducted. Being a cow
+        ain't easy!</p>
+    </div>
+    <div class="footer">
+      <p>This a weird version of Ivy's Hardest Game, created solely for practicing HTML5 Canvas API. Also it was so much
+        fun. Source Code: <a href="https://github.com/cakebatterandsprinkles/planets-hardest-game"
+          target="_blank">cakebatterandsprinkles</a></p>
+      </p>
+    </div>
+  </div>
+  <div class="small-screen">
+    <p> This app is not optimized for smaller screens, please try using it from your desktop or ipads! </p>
+    <p> Thanks! ♪(･ω･)ﾉ </p>
+  </div>
+  <div class="game-container">
+    <p class="title">
+      <span class="title--orange">Planet's Hardest Game</span><span class="title--rules" id="rules">?</span>
+    </p>
+    <canvas id="canvas" width="1000" height="700"></canvas>
+  </div>
+  <script src="renderLogic.js"></script>
+  <!-- <script src="canvasLogic.js"></script> -->
+</body>
+
+</html>
